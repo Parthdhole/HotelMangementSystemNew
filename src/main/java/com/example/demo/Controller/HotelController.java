@@ -43,6 +43,6 @@ public class HotelController {
     @DeleteMapping("/{id}")
     public String deleteHotel(@PathVariable Long id) {
         hotelService.deleteHotel(id);
-        return "Hotel deleted successfully oook";
+        return "Hotel deleted successfully oook then if you want to add then add the hotel";
     }
 }
